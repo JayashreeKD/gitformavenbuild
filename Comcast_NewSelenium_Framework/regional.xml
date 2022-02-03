@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Reginal" >
+
+  <test name="Test">
+    <classes>
+      <class name="com.vtiger.comcast.OrganisationTest.CreateOrganisationTest">
+      <methods>
+      <include name="CreateOrganisationTest"/>
+      
+      </methods>
+        
+        </class>
+   
+      <class name="com.vtiger.comcast.ContactTest.CreateContatcTest">
+      
+      <methods>
+      <include name="createOrgwithContact"/>
+      
+      </methods>
+      </class>
+     </classes> 
+  
+  </test> 
+</suite> 

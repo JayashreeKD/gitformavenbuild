@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+<groups>
+<run>
+
+<include name="regressionTest"/>
+</run>
+
+</groups>
+  <test name="regressionTest">
+    <classes>
+      <class name="com.vtiger.comcast.OrganisationTest.CreateOrganisationTest"/>
+      <class name="com.vtiger.comcast.ContactTest.CreateContatcTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

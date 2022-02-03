@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="tests">
+<parameter name="browser" value="chrome"
+  <test name="Test">
+    <classes>
+      <class name="com.vtiger.comcast.OrganisationTest.CreateOrganisationTest"/>
+      <class name="com.vtiger.comcast.ContactTest.CreateContatcTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Test">
+   <parameter name="browser" value="firefox"
+    <classes>
+      <class name="com.vtiger.comcast.OrganisationTest.CreateOrganisationTest"/>
+      <class name="com.vtiger.comcast.ContactTest.CreateContatcTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

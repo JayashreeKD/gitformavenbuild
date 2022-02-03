@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="reginalreggsession">
+
+
+
+  <test name="Test">
+    <classes>
+    
+   
+      <class name="com.vtiger.comcast.OrganisationTest.CreateOrganisationTest">
+      <methods>
+      <include  name="createOrganisationwithIndustry"/>
+      
+      
+      </methods>
+      
+   </class>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
